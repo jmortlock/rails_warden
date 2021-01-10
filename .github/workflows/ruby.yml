@@ -15,7 +15,7 @@ jobs:
       matrix:
         gemfile: [rails50, rails51, rails52, rails60, rails61]
         ruby: ["2.5", "2.6", "2.7", "3.0"]
-      exclude:
+      excludes:
         - gemfile: rails50
           ruby: "3.0"
         - gemfile: rails51
